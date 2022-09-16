@@ -2,7 +2,7 @@
 
 import numpy as np
 
-# Train - Test data split function 
+# Train - Test data split function
 def data_split(x, y, train_size = 0.8):
     n = int(train_size*len(x))
     

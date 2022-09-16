@@ -17,7 +17,7 @@ x_train, y_train, x_test, y_test = data_split(x, y)
 x_train = (x_train-x_train.mean())/x_train.std()
 x_test = (x_test-x_test.mean())/x_test.std()
 
-# Model fit and prediction
+# Model fit and prediction 
 model = LinearRegression()
 model.fit(x_train, y_train)
 preds = model.predict(x_test)

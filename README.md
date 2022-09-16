@@ -69,7 +69,7 @@ En `with_framework.py` se realizan los pasos necesarios para utilizar el modelo:
 
 #### Ejecución y resultados
 
-Para usar el modelo es necesario descargar el archivo `with_framework.py` y ejectarlo.
+Para usar el modelo es necesario descargar el archivo `with_framework.py` y ejecutarlo.
 
 Al ejecutarlo se obtiene el error que existe entre los datos de prueba y los predichos.
 
