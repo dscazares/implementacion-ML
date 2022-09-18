@@ -6,8 +6,8 @@ import numpy as np
 def data_split(x, y, train_size = 0.8):
     n = int(train_size*len(x))
     
-    x_train, y_train = x[:n], y[:n]
-    x_test, y_test = x[n:], y[n:]
+    x_train, y_train = x[:n], y[:n] # Train data
+    x_test, y_test = x[n:], y[n:] # Test data
     
     return x_train, y_train, x_test, y_test
 
